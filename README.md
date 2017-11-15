@@ -104,7 +104,7 @@ _Your repository must include:_
 
 *As a user, I want to have an application that looks good, is easy to use, and is updated often, so that I want to come back and use it frequently.*
 
-- Working from the provided comp images, write CSS such that the browser rendering matches the images as closely as possible.
+- Working from the provided [comp images](comp-images/), write CSS such that the browser rendering matches the images as closely as possible.
 - Utilize the icon fonts located in `styles/icons.css` for navigation features as shown in the comp images.
 
 *As a developer, I want to use standard industry practices for setting up and organizing the code that handles the styling of my application so that my code is easy to edit and maintain.*
