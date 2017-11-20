@@ -91,7 +91,9 @@ _Your repository must include:_
 │   │   └── icomoon.woff
 │   ├── icons.css
 │   ├── layout.css
-│   └── modules.css
+│   ├── modules.css
+│   ├── state.css
+│   └── theme.css
 └── vendor
     └── styles
         └── normalize.css
@@ -123,6 +125,9 @@ _Your repository must include:_
 ### Stretch Goal
 *As a user, I want a familiar experience when accessing the application on my tablet so that I can get the most out of the screen size.*
 - Set up an intermediate media query for tablet devices (choose the maximum width at your own discretion).
+
+*As a developer, I want to stay up to date with the latest in CSS features.*
+- Instead of using clearfix to make my article images stay within the article containers, I want to find and use the new CSS display property that does a similar thing. 
 
 ---
 

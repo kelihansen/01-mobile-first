@@ -8,9 +8,9 @@
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
 
   <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-
+  
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-
+  
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- PUT YOUR RESPONSE HERE -->
 
@@ -18,11 +18,7 @@
   <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/alchemycodelab/code-301-prework/master/acl-logo.PNG?s=100">
 </head>
 <body>
-  <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
-  <header class="site-header clearfix">
-    <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
-    <!-- PUT YOUR RESPONSE HERE -->
-
+  <header class="site-header">
     <section class="heading-group-h1">
       <h1>
         Kilovolt Blog!
@@ -42,7 +38,10 @@
   </header>
   <main>
     <section id="articles" class="tab-content">
-      <article class="clearfix" data-category="bacon">
+      <!-- REVIEW: Note that the articles have multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
+      <article class="blog-post clearfix" data-category="bacon">
+      <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words why and how they are used. Article: https://css-tricks.com/snippets/css/clear-fix/ -->
+      <!-- PUT YOUR RESPONSE HERE -->
           <header>
             <h1>Bacon Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
@@ -51,9 +50,11 @@
               published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
             </div>
           </header>
-          <section class="article-body"><p>Bacon ipsum dolor amet do ex andouille minim, kielbasa consectetur t-bone. Ullamco alcatra deserunt, occaecat sed drumstick prosciutto. Cupim sed ullamco cow ham hock turkey pariatur. Officia landjaeger minim, tenderloin salami ribeye cupidatat. Consequat reprehenderit shank nostrud proident shoulder mollit flank. Excepteur quis occaecat kevin officia, ribeye sausage chuck et pig.</p><p><img src="http://baconmockup.com/600/300/" class="pull-right"> Cupidatat pancetta chuck fugiat shankle dolor drumstick excepteur spare ribs duis. Meatloaf beef ribs et picanha eu in qui dolore tongue enim spare ribs capicola est pork chop swine. Ipsum strip steak nostrud ham hock qui irure. <img src="http://baconmockup.com/300/400/" class="pull-right">Picanha occaecat prosciutto, rump tempor jerky proident voluptate short loin jowl.</p><p> Leberkas pariatur commodo ex adipisicing kevin magna meatball turducken id shoulder consectetur officia ham. Ribeye ullamco porchetta, velit fatback beef dolor pastrami swine salami tail. Turducken shoulder aliquip, biltong nostrud enim dolore chuck.</p><p> Jerky lorem consectetur tempor consequat pig magna incididunt filet mignon ullamco elit ea ut frankfurter. Andouille salami pig capicola. Short ribs cupim sirloin, in shank non landjaeger tri-tip. Hamburger cillum ground round, ham minim ex short ribs ribeye.</p><p> Prosciutto incididunt cow ball tip jowl ex. Nostrud reprehenderit tempor consequat sunt mollit ball tip salami kielbasa excepteur in est eiusmod. Corned beef ham hock cupidatat qui boudin filet mignon tempor, ut pork loin adipisicing doner t-bone short ribs pancetta. Swine veniam short ribs labore bresaola picanha ground round nostrud. Est turkey voluptate beef, fatback frankfurter pig in. Biltong bresaola salami short loin enim ut filet mignon.</p><p>Salami elit dolore sunt, in fatback porchetta est shankle ad boudin ea short loin. Velit cow prosciutto venison tri-tip laboris, magna sirloin. In corned beef eu magna dolore porchetta andouille. Chicken sunt occaecat pig.</p></section>
+          <section class="article-body"><p>Bacon ipsum dolor amet do ex andouille minim, kielbasa consectetur t-bone. Ullamco alcatra deserunt, occaecat sed drumstick prosciutto. Cupim sed ullamco cow ham hock turkey pariatur. Officia landjaeger minim, tenderloin salami ribeye cupidatat. Consequat reprehenderit shank nostrud proident shoulder mollit flank. Excepteur quis occaecat kevin officia, ribeye sausage chuck et pig.</p><p><img src="http://baconmockup.com/600/300/" class="pull-right">
+            <!-- TODO: make the images float left or right according to their class -->
+          Cupidatat pancetta chuck fugiat shankle dolor drumstick excepteur spare ribs duis. Meatloaf beef ribs et picanha eu in qui dolore tongue enim spare ribs capicola est pork chop swine. Ipsum strip steak nostrud ham hock qui irure. <img src="http://baconmockup.com/300/400/" class="pull-right">Picanha occaecat prosciutto, rump tempor jerky proident voluptate short loin jowl.</p><p> Leberkas pariatur commodo ex adipisicing kevin magna meatball turducken id shoulder consectetur officia ham. Ribeye ullamco porchetta, velit fatback beef dolor pastrami swine salami tail. Turducken shoulder aliquip, biltong nostrud enim dolore chuck.</p><p> Jerky lorem consectetur tempor consequat pig magna incididunt filet mignon ullamco elit ea ut frankfurter. Andouille salami pig capicola. Short ribs cupim sirloin, in shank non landjaeger tri-tip. Hamburger cillum ground round, ham minim ex short ribs ribeye.</p><p> Prosciutto incididunt cow ball tip jowl ex. Nostrud reprehenderit tempor consequat sunt mollit ball tip salami kielbasa excepteur in est eiusmod. Corned beef ham hock cupidatat qui boudin filet mignon tempor, ut pork loin adipisicing doner t-bone short ribs pancetta. Swine veniam short ribs labore bresaola picanha ground round nostrud. Est turkey voluptate beef, fatback frankfurter pig in. Biltong bresaola salami short loin enim ut filet mignon.</p><p>Salami elit dolore sunt, in fatback porchetta est shankle ad boudin ea short loin. Velit cow prosciutto venison tri-tip laboris, magna sirloin. In corned beef eu magna dolore porchetta andouille. Chicken sunt occaecat pig.</p></section>
       </article>
-      <article class="clearfix" data-category="baseball">
+      <article class="blog-post clearfix" data-category="baseball">
           <header>
             <h1>Baseball Ipsum</h1>
             <div class="byline">
@@ -63,7 +64,7 @@
           </header>
           <section class="article-body"><p>Baseball ipsum dolor sit amet base on balls full count leadoff. National pastime stance pine tar dribbler rookie dodgers hardball plate. <img src="http://lorempixel.com/400/200/" class="pull-left">Club sidearm shift red sox ground rule double, left fielder pennant good eye rubber game. Steal petey center field blue wins arm visitors. Out rope base cookie grass bandbox error. Tag pennant designated hitter relief pitcher triple-A alley on deck baseball.</p><p>Dribbler left on base arm curve bag, slider around the horn disabled list. Pennant catcher gapper rope screwball home cork foul. Nubber slide rake relief pitcher wrigley choke up cup of coffee cycle bench. Loss strikeout bandbox cardinals second base practice gap center fielder. Screwball fielder's choice play baseline rubber game warning track bleeder. Mustard inning in the hole astroturf alley fielder's choice left fielder.</p><p>Home grand slam suicide squeeze breaking ball batter's box flyout starting pitcher. Baseball card basehit double switch save batting average losses tossed umpire batter's box. Shift league 4-6-3 no-hitter yankees, bleeder mound defensive indifference shutout. Squeeze mound butcher boy loss rip chin music cracker jack. Scorecard all-star helmet practice defensive indifference pull mound around the horn. Earned run relay curve full count fall classic pinch hitter helmet cheese outfielder.</p><p>Foul pitchout moneyball all-star runs left on base fielder's choice. Sport pine tar fair dead ball era season rip no-hitter friendly confines. Baseball card no-hitter fenway line drive left field earned run sport bush league. Tossed walk off dodgers error streak, center fielder tossed chin music. Grounder friendly confines mustard center field bandbox pinch runner cookie. Alley left on base bat second baseman passed ball foul error cy young.</p><p>No-hitter breaking ball stadium doubleheader rubber fair team rake. Error leather left fielder outs at-bat leadoff cork hit by pitch rally. Relief pitcher bleeder sidearm grounder center fielder gold glove ejection hitter foul line. Error 4-6-3 gold glove knuckleball dead ball era, save pine tar. Robbed reliever cellar alley stretch club starter leather. Red sox dead red pull no-hitter assist can of corn manager error play.</p></section>
       </article>
-      <article class="clearfix" data-category="cat">
+      <article class="blog-post clearfix" data-category="cat">
           <header>
             <h1>Cat Ipsum</h1>
             <div class="byline">
