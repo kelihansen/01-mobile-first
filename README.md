@@ -121,7 +121,6 @@ _Your repository must include:_
 
 
 ### Stretch Goal
-<!-- Include any additional stretch goals for this assignment, which can vary depending on the class and their overall preparedness for additional work. -->
 *As a user, I want a familiar experience when accessing the application on my tablet so that I can get the most out of the screen size.*
 - Set up an intermediate media query for tablet devices (choose the maximum width at your own discretion).
 
