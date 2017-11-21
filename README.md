@@ -129,6 +129,9 @@ _Your repository must include:_
 *As a developer, I want to stay up to date with the latest in CSS features.*
 - Instead of using clearfix to make my article images stay within the article containers, I want to find and use the new CSS display property that does a similar thing. 
 
+*As a developer I want to use SMACCS to its fullest.*
+- Categorize your styles into state and theme files.
+
 ---
 
 ## Documentation  
