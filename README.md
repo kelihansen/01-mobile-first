@@ -1,85 +1,35 @@
 Lab 01: Mobile First
 =======
 
-Welcome to your first lab assignment for Code 301!!
+Welcome to your first lab assignment for Bootcamp: Part Two!!
 
 Today we'll be kicking off our blog app by applying what we learned in lecture to implement a mobile-first design using responsive web design techniques. You'll also need to spend some time getting familiar with the new Git/GitHub & Pair Programming workflow that we'll utilize throughout this course.
 
-*Please take the time to read carefully through each of the READMEs for lab assignments as they have detailed information regarding your assignment, such as: submission instructions, resources, configuration, user stories with feature tasks, and documentation.*
+*Please take the time to read carefully through each of the READMEs for lab assignments as they have detailed information regarding your assignment, such as: submission instructions, resources, configuration, and user stories with feature tasks.*
 
 ## Content
-1. Pairing Flow
-1. Resources
+1. Pairing Flow and Submission Instructions
 1. Configuration
 1. User Stories and Feature Tasks
-1. Documentation
 
 ---
 
-## Pairing Flow
-
-Here is the recommended workflow:
-
-**Set up your repo**
-
-1. Driver: fork the class org's lab repository if you haven't done so already.
-    * Your **forked repo** on GitHub is your `origin` repo.
-    * Be sure to add your navigator as a collaborator (go to `Settings` -> `Collaborators & teams`) so they can push directly to it.
-1. Clone **your fork** to your local development environment. Follow this directory <span id="directory">structure</span>:
-
-	```
-	~/acl
-	  301/
-	    lab-assignments/
-	      01-mobile-first/ # this is the cloned repository for today's work
-	```
-
-1. Immediately `git checkout -b <feature-name>` (ex: `git checkout -b responsive-design`).
-
-**Write code together!**
-
-1. In VS Code use the "Find in Project" feature (`CTRL/CMD + SHIFT + F`) to locate all the `TODO:`, `REVIEW:`, and `COMMENT:` items.
-1. Before writing code, read-through the existing code and discuss the `REVIEW` items with your partner.
-1. Start `live-server` in your terminal to render the code in the browser. 
-    * Note that `live-server` will automatically update the browser when code is changed and saved.
-1. Work through one or two `TODO` or `COMMENT` items before switching roles (or one hour, whichever arrives first), testing your code as you go.
-1. Do an A-C-P cycle:
-    1. `git add` the changes that you've made.
-    1. `git commit -m "some meaningful message"` where some meaningful message is a message that **thoroughly** explains your commit.
-    1. `git push origin <branch-name>` to push your branch to your forked repo on GitHub.
-
-**Switch roles**
-
-The navigator (who will become the new driver):
-
-  - Clone your pair's fork from GitHub.
-    - See the above <a href="#directory">directory structure</a> for what you should have on your file system.
-  - Fetch the branch you were just working on (`git fetch origin <feature-name>`)
-  - Checkout that branch (`git checkout <feature-name>`).
-  - Open the code in your editor and resume editing the code.
-  - Add, commit, push as you have done before.
-
-
----
-
-## Resources  
-<!-- a list of links if any are necessary for the assignment-->
-- [Video: Mobile Testing Tip for Your Phone](https://www.youtube.com/watch?v=2t4E_tc8TKM)
+## Pairing Flow and Submission Instructions
+Read through the pairing flow and submission instructions outlined in our [submit-process repo](https://github.com/alchemy-bootcamp-two-winter-2018/submit-process).
 
 ---
 
 ## Configuration
 _Your repository must include:_
 
-- `README.md` - with documentation regarding your lab and its current state of development. Check the "documentation" section below for more details on how that should look **AT MINIMUM**
+- `README.md` - with information about your repo (follow the README template in our [submit-process repo](https://github.com/alchemy-bootcamp-two-winter-2018/submit-process))
 - `.gitignore` - with standard NodeJS configurations
-- `.eslintrc.json` - with Code 301 course standards for the linter
+- `.eslintrc.json` - with our course standards for the linter
 
 ```
 01-mobile-first/starter-code/
 ├── .eslintrc.json
 ├── .gitignore
-├── LICENSE
 ├── README.md
 ├── index.html
 ├── styles
@@ -131,33 +81,3 @@ _Your repository must include:_
 
 *As a developer I want to use SMACCS to its fullest.*
 - Categorize your styles into state and theme files.
-
----
-
-## Documentation  
-_Your README.md must include:_
-
-```md
-# Project Name
-
-**Author**: Your Name Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
-
-## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
-
-## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
-
-## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
-
-## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
-
-## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
-```
