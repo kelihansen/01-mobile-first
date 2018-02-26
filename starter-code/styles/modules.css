@@ -5,6 +5,10 @@
     font-size: 3rem;
 }
 
+main h1 {
+    margin: 1.5rem 0;
+}
+
 address, time {
     display: inline;
 }
@@ -33,7 +37,7 @@ address, time {
 
 @media screen and (min-width: 640px) {
     .icon-menu {
-        visibility: hidden;
+        display: none;
     }
     .main-nav li {
         display: inline;

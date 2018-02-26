@@ -16,10 +16,11 @@ nav {
 .site-header {
     background-color: rgb(251, 233, 170);
     width: 100%;
+    padding: 1.5rem 1.2rem 1.2rem 1.2rem;
 }
 
-.site-header, main {
-    padding: 1.5rem 0 1.5rem 1.2rem;
+main {
+    padding: 0 1.5rem ;
 }
 
 a {
