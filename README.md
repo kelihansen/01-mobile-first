@@ -68,7 +68,7 @@ _Your repository must include:_
 
  - Initially design the application to render per the comp images on mobile devices.
  - Set up the viewport and fluid media rules so content renders per the comp images in both mobile and desktop views. Use a breakpoint of 640 pixels.
- - Add a "Hamburger" menu button that reveals the nav links when tapped on a mobile device.
+ - Add a "Hamburger" menu button that reveals the nav links when hovered over (or tapped on a mobile device).
 - Ensure that images are responsive and do not exceed the size of the viewport.
 
 
