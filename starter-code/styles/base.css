@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+nav {
+    font-family: serif;
+}
+
+.site-header {
+    background-color: rgb(251, 233, 170);
+}
+
+.site-header, main {
+    padding: 1.5rem 0 1.5rem 1.2rem;
+}
+
+a {
+    color: rgb(120, 120, 120);
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 2.5rem;    
+}
+
+address, time {
+    display: inline;
+}
+
+p {
+    padding-top: 1em;
+    line-height: 1.5em;
+}
