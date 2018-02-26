@@ -59,10 +59,10 @@ _Your repository must include:_
 - Working from the provided [comp images](comp-images/), write CSS such that the browser rendering matches the images as closely as possible.
 - Utilize the icon fonts located in `styles/icons.css` for navigation features as shown in the comp images.
 
-*As a developer, I want to use standard industry practices for setting up and organizing the code that handles the styling of my application so that my code is easy to edit and maintain.*
+*As a developer, I want to use standard industry practices for setting up and organizing the code that handles the styling of my application so that it is easy to edit and maintain.*
 
 - Utilize a [`normalize.css`](https://github.com/necolas/normalize.css/blob/master/normalize.css) file, which should be placed in a `vendor/styles/` directory, to override default browser settings that affect the way documents render.
-- Utilize SMACSS practices to organize CSS into separate files and appropriately order the loading of those files in the `<head>` of the HTML document.
+- Utilize SMACSS practices to organize CSS into separate files and appropriately order the loading of those files in the `<head>` of the HTML document. At minimum you should have a file for: base, layout, and module styles.
 
 *As a user, I want a familiar experience of the application so that I know how to use it on my smartphone and occasionally my laptop.*
 
@@ -72,12 +72,12 @@ _Your repository must include:_
 - Ensure that images are responsive and do not exceed the size of the viewport.
 
 
-### Stretch Goal
+### Stretch Goals
 *As a user, I want a familiar experience when accessing the application on my tablet so that I can get the most out of the screen size.*
 - Set up an intermediate media query for tablet devices (choose the maximum width at your own discretion).
 
 *As a developer, I want to stay up to date with the latest in CSS features.*
-- Instead of using clearfix to make my article images stay within the article containers, I want to find and use the new CSS display property that does a similar thing. 
+- Instead of using clearfix to make my article images stay within the article containers, I want to use the newer CSS display property that does a similar thing. 
 
 *As a developer I want to use SMACCS to its fullest.*
 - Categorize your styles into state and theme files.
