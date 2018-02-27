@@ -3,6 +3,10 @@
     top: 0.5rem;
     right: 0.5rem;
     font-size: 3rem;
+    z-index: -1;
+}
+header {
+    position: absolute;
 }
 
 main h1 {
@@ -31,15 +35,6 @@ address, time {
 
 nav {
     display: none;
-}
-.site-header {
-    z-index: 1;
-}
-.icon-menu {
-    z-index: 2;
-}
-.heading-group-h1 {
-    z-index: 3;
 }
 
 .icon-menu:hover ~ nav {
